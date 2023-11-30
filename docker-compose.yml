@@ -41,7 +41,7 @@ services:
       - db_data:/var/lib/mysql
     networks:
       - your-network
-      
+
 volumes:
   db_data:
 
